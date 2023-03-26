@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    background-color: rgb(54, 3, 102);
+}
+.entireform{
+  font-size: xx-large;
+  line-height: 30px;
+padding-bottom: 150px;
+padding-right: 100px;
+    
+position: absolute;
+left: 600px;
+top: 200px; 
+
+}
+#login{
+
+  position: absolute;
+  left: 120;
+  padding-bottom: 30px;
+    font-size:xx-large;
+    color: aliceblue;
+}
+
+#name{
+ 
+  
+    color: rgb(255, 252, 252);
+    border: 1px solid rgb(48, 48, 48);
+    font-size: xx-large;
+    background-color: rgb(48, 48, 48);
+}
+#password{
+     font-size:30px;
+    /* border-radius: 10px; */
+    background-color: rgb(48, 48, 48);
+      border: 1px solid rgb(48, 48, 48);
+}
+#loginbutton{
+    color: whitesmoke;
+    background-color: #030200;
+    font-size: x-large;
+    position: absolute;
+    bottom: 150px;
+    left: 125;
+
+
+}
+#googlesignin{
+    color: black;
+    font-size: xx-large;
+    position: absolute;
+    left: 60px;
+    bottom: 25px;
+    background-color: rgb(219, 243, 246);
+    border-radius: 20px;
+}
+
+#signupbtn{
+color: rgb(250, 237, 237);
+    text-decoration: none;
+    position: absolute;
+    left: 310px;
+
+}
+a.entireform:hover{
+   background-color : white;
+}
+#signupline{
+  
+    color: rgb(172, 172, 172);
+    position: absolute;
+    bottom: 90px;
+
+
+}
+#FORGOTPASSSWORD{
+    color:rgb(250, 237, 237) ;
+  text-decoration: none;
+    font-size: x-large;
+    color: azure;
+    position: absolute;
+    left: 230;
+    bottom: 185;
+   
+
+}

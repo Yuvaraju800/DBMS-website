@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.header {
+
+    position: absolute;
+    width: 100%;
+    height: 82px;
+    left: 0px;
+    top: -3px;
+    
+    background: #000000;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+position: absolute;
+width: 78px;
+height: 78px;
+left: 0px;
+top: 0px;
+
+background: url(/Images/search\ gif.gif);
+border-radius: 246.5px;
+}
+
+
+
+
+.nav-links {
+    flex: 1;
+    text-align: left;
+}
+
+.text-box h1{
+    font-size :62px;
+     
+ } 
+ .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 45px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+
+}
+.button {
+    flex: 1;
+    text-align: right;
+    position: absolute;
+}
+
+#loginbtn{
+    background-color: #000000;
+    color: orange;
+position: absolute;
+width: 123px;
+height: 56.85px;
+left: 900px;
+font-size: 30px;
+border: 1px solid orange;
+
+bottom:10px;
+}
+#signupbtn{
+    color: #fff;
+    background-color: chocolate;
+position: absolute;
+width: 116px;
+height: 55px;
+left: 1120px;
+font-size: 30px;
+
+bottom:10px;
+}
+.search{
+    color: red ;
+    border-radius:13px ;
+    background-color: darkslategrey;
+    position: absolute;
+    
+width: 800px;
+height: 100px;
+left: 14px;
+top: 89px;
+}
+
+  
+  /* Style the search field */
+  #sev{
+    TOP:89PX;
+    LEFT:14PX;
+    position: absolute;
+    
+    font-size: 17px;
+   
+    
+    
+    background: #f1f1f1;
+  }
+  .ko{
+position: absolute;
+background-color: #756D6E;
+width: 544px;
+height: 58px;
+left: 14px;
+top: 89px;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFFFF;
+    opacity: 1;
+    /* position: absolute;
+width: 142px;
+height: 30px;
+left: 55px;
+top: 100px; Firefox */
+  }
+  .popular{
+    /* Popular Searches */
+    color: #B47907;
+    font-family: 'Inria Serif';
+position: absolute;
+width: 422px;
+height: 83px;
+left: 446px;
+top: 179px;
+
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 42px;
+  }
+  .container{
+    /* Group 24 */
+border: 1px solid black;
+background-color: #fff;
+position: absolute;
+width: 100%;
+height: 549px;
+left: -1px;
+top: 262px;
+  }
+.container-2{
+
+position: absolute;
+width: 100%;
+height: 376px;
+left: 0px;
+top: 30px;
+
+background: rgba(0, 0, 0, 0.8);
+
+}
+#see{
+    /* Group 49 */
+border: 1px solid #B47907;
+font-size: large;
+color: #fff;
+background-color: #B47907;
+position: absolute;
+width: 112px;
+height: 40px;
+left: 130px;
+top: 200px;
+}
+.building img{
+    /* Black Fly_ A Modern Villa in India by Amin Moazzen 1 */
+
+
+position: absolute;
+width: 513px;
+height: 467px;
+left: 560px;
+top: -20px;
+
+background: url();
+}
+.rod{
+position: absolute;
+width: 5px;
+height: 250px;
+left: 32px;
+top: 50px;
+
+background: #FFFFFF;
+}
