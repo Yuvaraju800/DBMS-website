@@ -1,0 +1,445 @@
+/* //CSS CODE FOR NAVIGATION BAR */
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+#gif {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+    top: 10px;
+
+    background: url(/Images/search\ gif.gif);
+    border-radius: 246.5px;
+
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 82px;
+    left: 0px;
+    top: -3px;
+    background: #000000;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: left;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 70px;
+    position: relative;
+}
+
+.nav-links ul li a {
+
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+
+}
+
+.login {
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B47907;
+    box-sizing: border-box;
+    position: absolute;
+    width: 123px;
+    height: 56.85px;
+    left: 950px;
+    top: 13px;
+    border: 1px solid #B47907;
+    background-color: black;
+}
+
+.signin {
+    border: 1px solid #B47907;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #B47907;
+    color: #fff;
+    position: absolute;
+    width: 116px;
+    height: 55px;
+    left: 1120px;
+    top: 13px;
+}
+
+/* CSS CODE FOR HOUSE NAME */
+.Hname {
+    position: absolute;
+    width: 402px;
+    height: 96px;
+    left: 9px;
+    top: 105px;
+}
+
+#name {
+    font-weight: bold;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+#review {
+    font-size: medium;
+}
+
+#save {
+    position: absolute;
+    font-size: large;
+    left: 1200px;
+    top: 8px;
+}
+
+/* <!-- CSS CODE FOR NFT Loft KEIV --> */
+.house {
+    position: absolute;
+    background-color: #BB9064;
+    border: 1px solid black;
+    width: 100%;
+    height: 793px;
+    left: 0px;
+    top: 200px;
+}
+
+#pic1 {
+    /* Black Fly_ A Modern Villa in India by Amin Moazzen 1 */
+    position: absolute;
+    width: 520px;
+    height: 441px;
+    left: 30px;
+    top: 30px;
+}
+
+.fourpics {
+    background-color:#BB9064;
+    position: absolute;
+    width: 600px;
+    height: 441px;
+    left: 600px;
+    top: 30px;
+}
+
+#fourpic1 {
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    left: 10px;
+    top: 10px;
+}
+
+#fourpic2 {
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    left: 320px;
+    top: 10px;
+}
+
+#fourpic3 {
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    left: 320px;
+    top: 240px;
+}
+
+#fourpic4 {
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    left: 10px;
+    top: 240px;
+}
+/* rectangle box */
+.rectangle{
+position: absolute;
+width: 521px;
+height: 67px;
+left: 31px;
+top: 500px;
+
+background: #100F0F;
+}
+/* words */
+#words{
+align-items: center;
+position: absolute;
+width: 380px;
+height: 24px;
+left: 50px;
+top: 20px;
+
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+color: white;
+}
+/* text */
+.text{
+position: absolute;
+width: 95%;
+height: 191px;
+left: 25px;
+top: 600px;
+background-color: #BB9064;
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+/* three rules */
+.threerules{
+ /* border:1px solid black; */
+background-color: white;
+position: absolute;
+width: 501px;
+height: 207px;
+left: 12px;
+top: 1015px;
+}
+.workspace{
+    position: absolute;
+    width: 501px;
+    height: 207px;
+    left: 60px;
+    top: 0px;
+}
+#work-space{
+    position: absolute;
+    width:23px;
+    height:23px;
+    left:30px;
+}
+.check-in{
+    position: absolute;
+    width: 501px;
+    height: 207px;
+    left: 60px;
+    top: 70px;
+}
+#self-check{
+    position: absolute;
+    width:25px;
+    height:25px;
+    top:65px;
+    left: 27px;
+
+
+}
+.cancellation{
+    position: absolute;
+    width: 501px;
+    height: 207px;
+    left: 60px;
+    top: 150px;
+}
+#cancel{
+    position: absolute;
+    width:23px;
+    height:23px;
+    top:147px;
+    left: 30px;
+}
+/* About */
+#about{
+position: absolute;
+width: 89px;
+height: 38px;
+left: 12px;
+top: 1244px;
+font-family: 'Inria Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #000000;
+
+}
+/* About Information */
+.inf{
+/* border: 1px solid #000000; */
+position: absolute;
+width: 800px;
+height: 241px;
+left: 12px;
+top: 1282px;
+}
+#mini{
+left:100px;
+font-style: normal;
+/* font-weight: 700; */
+font-size: 20px;
+line-height: 30px;
+color: black
+}
+#kk{
+font-size: 20px;
+color: black;
+}
+/* place-offers */
+.place-offers{
+/* border: 1px solid red; */
+position: absolute;
+width: 804px;
+height: 278px;
+left: 12px;
+top: 1545px;
+}
+#place{
+    font-size: 27px;
+}
+#city{
+    position: absolute;
+    font-size: 20px;
+    top:50px;
+    left:50px;
+}
+#wifi{
+    position: absolute;
+    font-size: 20px;
+    top:110px;
+    left:50px;
+}
+#park{
+    position: absolute;
+    font-size: 20px;
+    top:165px;
+    left:50px;
+}
+#wash{
+    position: absolute;
+    font-size: 20px;
+    top:225px;
+    left:50px;
+}
+#kitchen{
+    position: absolute;
+    font-size: 20px;
+    top:50px;
+    left:500px;
+}
+#shop{
+    position: absolute;
+    font-size: 20px;
+    top:110px;
+    left:500px;
+}
+#tv{
+    position: absolute;
+    font-size: 20px;
+    top:165px;
+    left:500px;
+}
+#camera{
+    position: absolute;
+    font-size: 20px;
+    top:225px;
+    left:500px;
+}
+#sky{
+    position: absolute;
+    height:30px;
+    width:30px;
+    top:48px;
+    left:15px;
+}
+#sig{
+    position: absolute;
+    height:30px;
+    width:30px;
+    top:105px;
+    left:15px;
+}
+#car{
+    position: absolute;
+    height:30px;
+    width:30px;
+    top:160px;
+    left:15px;
+}
+#mach{
+    position: absolute;
+    height:30px;
+    width:30px;
+    top:220px;
+    left:15px;
+}
+#kit{
+    position: absolute;
+    height:30px;
+    width:30px;
+    top:48px;
+    left:450px;
+}
+#shp{
+    position: absolute;
+    height:30px;
+    width:30px;
+    top:105px;
+    left:450px;
+}
+#show{
+    position: absolute;
+    height:30px;
+    width:30px;
+    top:160px;
+    left:450px;
+}
+#video{
+    position: absolute;
+    height:30px;
+    width:30px;
+    top:220px;
+    left:450px;
+}
