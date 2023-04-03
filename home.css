@@ -7,7 +7,6 @@
 }
 
 .header {
-
     position: absolute;
     width: 100%;
     height: 82px;
@@ -19,7 +18,7 @@
 
 nav {
     display: flex;
-    padding: 2% 6%;
+    padding: 2% 13%;
     justify-content: space-between;
     align-items: center;
 }
@@ -28,8 +27,8 @@ nav img {
 position: absolute;
 width: 78px;
 height: 78px;
-left: 0px;
-top: 0px;
+left: 5px;
+top: 3px;
 
 background: url(/Images/search\ gif.gif);
 border-radius: 246.5px;
@@ -81,8 +80,8 @@ border-radius: 246.5px;
 }
 
 #loginbtn{
-    background-color: #000000;
-    color: orange;
+background-color: #000000;
+color: orange;
 position: absolute;
 width: 123px;
 height: 56.85px;
@@ -93,8 +92,9 @@ border: 1px solid orange;
 bottom:10px;
 }
 #signupbtn{
-    color: #fff;
-    background-color: chocolate;
+color: #fff;
+background-color: chocolate;
+border: 1px solid #BB6606;
 position: absolute;
 width: 116px;
 height: 55px;
@@ -104,46 +104,62 @@ font-size: 30px;
 bottom:10px;
 }
 .search{
-    color: red ;
-    border-radius:13px ;
-    background-color: darkslategrey;
-    position: absolute;
-    
-width: 800px;
-height: 100px;
+border: 1px solid #756D6E;
+/* border-radius:8px ; */
+background:#756D6E;  
+position: absolute;
+width: 500px;
+height: 59px;
 left: 14px;
 top: 89px;
 }
-
-  
   /* Style the search field */
-  #sev{
-    TOP:89PX;
-    LEFT:14PX;
+  #loc{
+    border: 1px solid #756D6E;
+/* border-radius:8px ; */
+    TOP:0PX;
+    LEFT:0PX;
+    width:100px;
+    height:59px;
     position: absolute;
+    background: #756D6E;
+    font-size: 20px;
+    color: #fff;
     
-    font-size: 17px;
-   
-    
-    
-    background: #f1f1f1;
   }
-  .ko{
+#city{
+    
+border: 1px solid #756D6E;
+/* border-radius:8px ; */
 position: absolute;
-background-color: #756D6E;
-width: 544px;
-height: 58px;
-left: 14px;
-top: 89px;
+background: #756D6E;
+color: #fff;
+width: 400px;
+height: 59px;
+left: 100px;
+top: 0px;
+font-size: 20px;
   }
-  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+   ::placeholder  { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #FFFFFF;
     opacity: 1;
+    font-size: larger;
+    width:max-content;
+    height: 20;
+    left:500px;
     /* position: absolute;
 width: 142px;
 height: 30px;
 left: 55px;
 top: 100px; Firefox */
+  }
+  #line{
+    position: absolute;
+    top:10px;
+    left:98px;
+    height: 40px;
+    width:3px;
+    background-color: #000000;
   }
   .popular{
     /* Popular Searches */
@@ -214,4 +230,3 @@ left: 32px;
 top: 50px;
 background: #FFFFFF;
 }
-
