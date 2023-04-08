@@ -74,6 +74,58 @@ nav {
     width: 100%;
 
 }
+@media only screen and (max-width: 768px) {
+    /* Navigation bar */
+    .nav-links {
+      display: none;
+    }
+    .login, .signin {
+      display: none;
+    }
+    
+    /* House name */
+    .Hname {
+      width: 100%;
+      height: 60px;
+      left: 0;
+      top: 82px;
+      text-align: center;
+    }
+    #name {
+      font-size: 30px;
+    }
+    
+    /* NFT Loft KEIV */
+    #pic1 {
+      width: 100%;
+      height: auto;
+      top: 82px;
+    }
+    .fourpics {
+      width: 100%;
+      height: auto;
+      top: 82px;
+    }
+    .rectangle {
+      width: 100%;
+      left: 0;
+      top: 600px;
+    }
+    #words {
+      width: 90%;
+      font-size: 18px;
+    }
+    .text {
+      width: 90%;
+      left: 5%;
+      top: 700px;
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+  
+
+  
 
 .login {
     font-family: 'Inria Serif';
@@ -111,6 +163,7 @@ nav {
 /* CSS CODE FOR HOUSE NAME */
 .Hname {
     position: absolute;
+    display:flexbox;
     width: 402px;
     height: 96px;
     left: 9px;
@@ -137,7 +190,8 @@ nav {
 
 /* <!-- CSS CODE FOR NFT Loft KEIV --> */
 .house {
-    position: absolute;
+    /* display: flex; */
+    position: absolute; 
     background-color: #BB9064;
     border: 1px solid black;
     width: 100%;
@@ -145,7 +199,10 @@ nav {
     left: 0px;
     top: 200px;
 }
-
+img {
+    display: flexbox;
+    flex-direction: row;
+}
 #pic1 {
     /* Black Fly_ A Modern Villa in India by Amin Moazzen 1 */
     position: absolute;
@@ -157,7 +214,7 @@ nav {
 
 .fourpics {
     background-color:#BB9064;
-    position: absolute;
+    position: absolute; 
     width: 600px;
     height: 441px;
     left: 600px;

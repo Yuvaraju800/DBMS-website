@@ -15,6 +15,13 @@
     
     background: #000000;
 }
+/* //link */
+.link{
+    position: absolute;
+    top:400px;
+    left:20px;
+    font-weight: bold;
+}
 
 nav {
     display: flex;
